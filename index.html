@@ -1,73 +1,64 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mini Design System CSS Lab</title>
-  <meta name="description" content="Mini design system with CSS custom properties, color tokens, typography scale, buttons, cards, and badges.">
+  <title>Mini Design System Com CSS</title>
+  <meta name="description" content="Sistema visual com tokens, botoes, cards, badges e documentacao de componentes.">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body data-mode="design-system">
+<body data-mode="lab">
   <header>
     <div class="topbar">
-      <div class="brand"><span class="mark">I</span><span>Mini Design System CSS Lab</span></div>
-      <nav aria-label="Primary navigation">
-        <a href="#practice">Practice</a>
-        <a href="#output">Output</a>
-        <a href="#privacy">Data policy</a>
+      <div class="brand"><span class="mark">I</span><span>Mini Design System Com CSS</span></div>
+      <nav aria-label="Navegação principal">
+        <a href="#roteiro">Roteiro</a>
+        <a href="#pratica">Prática</a>
+        <a href="#dados">Dados</a>
       </nav>
-      <button class="ghost" id="themeToggle" type="button">Theme</button>
+      <button class="ghost" id="themeToggle" type="button">Contraste</button>
     </div>
     <section class="hero">
       <div class="hero-copy">
-        <h1>Document a reusable visual language with CSS variables.</h1>
-        <p>A compact system for tokens, buttons, status labels, cards, and type scale.</p>
+        <p class="eyebrow">I-06 | Designer De Websites</p>
+        <h1>Mini Design System Com CSS</h1>
+        <p>Sistema visual com tokens, botoes, cards, badges e documentacao de componentes.</p>
         <div class="toolbar">
-          <a class="button" href="#practice">Start lab</a>
-          <button class="secondary" id="exportButton" type="button">Export report</button>
+          <a class="button" href="#pratica">Iniciar laboratório</a>
+          <button class="secondary" id="exportButton" type="button">Exportar relatório</button>
         </div>
       </div>
       <aside class="panel">
-        <h2>I-06 Snapshot</h2>
-        <p>Website Design | Intermediate</p>
-        <div class="grid">
-          <div class="metric"><strong>8</strong><span>tokens</span></div>
-          <div class="metric"><strong>4</strong><span>components</span></div>
-          <div class="metric"><strong>1</strong><span>CSS file</span></div>
-        </div>
+        <h2>Roteiro rápido</h2>
+        <div class="metric"><strong>1</strong><span>Problema</span></div>
+        <div class="metric"><strong>3</strong><span>Evidências</span></div>
+        <div class="metric"><strong>0</strong><span>Backend</span></div>
       </aside>
     </section>
   </header>
-
   <main>
-    <section id="practice">
-      <h2>Practice Surface</h2>
+    <section id="roteiro">
+      <h2>Roteiro da Aula</h2>
       <div class="grid" id="cards"></div>
     </section>
-
-    <section class="grid two" id="output">
+    <section class="grid two" id="pratica">
       <div class="panel">
-        <h2>Interactive Output</h2>
+        <h2>Superfície Interativa</h2>
         <div id="dynamicSurface"></div>
       </div>
       <div class="panel">
-        <h2>Progress</h2>
+        <h2>Critérios de Evidência</h2>
         <div id="progressList"></div>
       </div>
     </section>
-
-    <section class="panel" id="privacy">
-      <h2>Data Policy</h2>
-      <p>Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.</p>
-      <p>All demo content is synthetic and local. No form or metric is submitted to a backend.</p>
+    <section class="panel" id="dados">
+      <h2>Política de Dados</h2>
+      <p>Projeto educacional inspirado na EETEPA Vilhena Alves. Não é sistema oficial institucional e não usa dados reais de estudantes.</p>
+      <p>Todo conteúdo é sintético, local e seguro para portfólio público. Nenhum formulário é enviado para backend.</p>
     </section>
   </main>
-
-  <footer>
-    Technical Computing | Website Design | MIT License
-  </footer>
-
-  <script id="projectData" type="application/json">{"title":"Mini Design System CSS Lab","code":"I-06","discipline":"Website Design","notice":"Educational project inspired by EETEPA Vilhena Alves. It is not an official institutional system and does not use real student data.","features":[{"name":"CSS variables","score":72},{"name":"component reuse","score":76},{"name":"design tokens","score":80},{"name":"documentation","score":84},{"name":"visual consistency","score":88}],"headline":"Document a reusable visual language with CSS variables.","summary":"A compact system for tokens, buttons, status labels, cards, and type scale.","cards":["Color tokens","Type scale","Buttons","Status labels"],"metrics":["8 tokens","4 components","1 CSS file"]}</script>
+  <footer>Tecnico Em Informatica | Designer De Websites | Licença MIT</footer>
+  <script id="projectData" type="application/json">{"title":"Mini Design System Com CSS","code":"I-06","course":"Tecnico Em Informatica","discipline":"Designer De Websites","description":"Sistema visual com tokens, botoes, cards, badges e documentacao de componentes.","features":["planejamento da solução","organização visual","evidência local","apresentação em equipe"],"cards":["Missão guiada","Evidência local","Discussão em equipe","Melhoria incremental"]}</script>
   <script src="script.js"></script>
 </body>
 </html>
